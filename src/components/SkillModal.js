@@ -20,7 +20,7 @@ export const SkillModal = () => {
     
     <div className="skills-container">
       {/* <h2>All Skills</h2> */}
-      <button onClick={openModal}>Click My Skills</button>
+      <button onClick={openModal}>My Skills</button>
       <Modal className="skills-modal"
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -30,23 +30,28 @@ export const SkillModal = () => {
         <table className="skills-table">
           <tr>
             <th>Languages</th>
-            <td>Python, JAVA, JavaScript, HTML5, CSS3, SQL, Bash</td>
+            <td>Python, JAVA, C#, .Net, TypeScript, JavaScript, Nodejs,HTML5, CSS3, Bash, MATLAB, Ruby,Go,C++</td>
           </tr>
           <tr>
             <th>Databases and Frameworks</th>
-            <td>SpringBoot, ReactJs, RESTful Webservices, Microservices, MySQL, MongoDB</td>
+            <td>SpringBoot, React, Node, Redux, JQuery, REST API, Microservices, MySQL, SQLite, MongoDB,
+Nginx, AJAX, Apache Kafka, Appian, Terraform, Cassandra,Junit, SOAP</td>
           </tr>
           <tr>
             <th>DevOps</th>
-            <td>Kubernetes, Docker, AWS</td>
+            <td> Kubernetes, Docker, AWS, Google Cloud Platform</td>
           </tr>
           <tr>
             <th>Tools</th>
-            <td>GIT, Jenkins, JIRA, Postman, Bitbucket, Maven</td>
+            <td>GIT, Jenkins, JIRA, Postman, Bitbucket, JSON</td>
           </tr>
           <tr>
             <th>Machine Learning</th>
-            <td>Deep Learning, sci-kit-learn, TensorFlow, Keras</td>
+            <td>Deep Learning, sci-kit-learn, TensorFlow, Keras, PyTorch</td>
+          </tr>
+          <tr>
+            <th>Other</th>
+            <td>OOP, Data Structures and Algorithms, Agile, Unit Testing, Splunk</td>
           </tr>
         </table>
         <button onClick={closeModal}>Close</button>

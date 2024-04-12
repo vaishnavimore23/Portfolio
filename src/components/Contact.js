@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import contactimg from "../assets/img/contact-us.gif"
+import contactimg from "../assets/img/contactimg.gif"
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -27,7 +27,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:5001/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -37,7 +37,7 @@ export const Contact = () => {
     setButtonText("Send");
     let result = await response.json();
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    if (result.code === 200) {
       setStatus({ succes: true, message: 'Message sent successfully'});
     } else {
       setStatus({ succes: false, message: 'Something went wrong, please try again later.'});

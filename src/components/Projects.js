@@ -93,7 +93,7 @@ export const Projects = () => {
     <section className="project" id="projects">
       <Container>
         <Row>
-          <Col size={12}>
+          <Col size={8}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
@@ -107,9 +107,9 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="second">Academic Projects</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="third">Industrial Projects</Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -149,7 +149,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    {/* <Tab.Pane eventKey="third">
                     <Row>
                         {
                           iprojects.map((iproject, index) => {
@@ -162,7 +162,7 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                   </Tab.Content>
                 </Tab.Container>
               </div>}
