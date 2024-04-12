@@ -1,8 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/SEO.jpeg";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import './Project.css'
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import citySail from "../assets/img/citySail.webp"
 import moviereview from "../assets/img/moviereview.png"
@@ -16,20 +15,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-  const iprojects =[
-    {
-      title: "Container Accelerator",
-      description: "Design & Development" ,
-      imgUrl: projImg1,
-      githubLink:'https://github.com/vaishnavimore23/SEO-Analyzer'
-    },
-    {
-      title: "EUC Remediation Project",
-      description: "Design & Development" ,
-      imgUrl: projImg1,
-      githubLink:'https://github.com/vaishnavimore23/SEO-Analyzer'
-    },
-  ]
+  
   const projects = [
     {
       title: "SEO Analyzer",
@@ -93,23 +79,22 @@ export const Projects = () => {
     <section className="project" id="projects">
       <Container>
         <Row>
-          <Col size={8}>
+          <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2 className="fs-4 fs-md-5 fs-lg-6">Projects</h2>
                 <p></p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                <Nav variant="pills" className="nav-pills mb-5 justify-content-center" id="pills-tab">
+
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Thesis</Nav.Link>
+                      <Nav.Link eventKey="first"  className="fs-6 fs-md-7 fs-lg-8">Thesis</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Academic Projects</Nav.Link>
+                      <Nav.Link eventKey="second"  className="fs-6 fs-md-7 fs-lg-8">Academic Projects</Nav.Link>
                     </Nav.Item>
-                    {/* <Nav.Item>
-                      <Nav.Link eventKey="third">Industrial Projects</Nav.Link>
-                    </Nav.Item> */}
+                   
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -149,20 +134,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    {/* <Tab.Pane eventKey="third">
-                    <Row>
-                        {
-                          iprojects.map((iproject, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...iproject}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane> */}
+                   
                   </Tab.Content>
                 </Tab.Container>
               </div>}

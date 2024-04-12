@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Developer", "JAVA Fullstack Developer" ];
+  const toRotate = ["Software Developer", "Fullstack Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -51,23 +51,24 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
+        <Row className="aligh-items-center justify-center">
+          <Col xs={12} md={6} className="text-center">
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Vaishnavi More`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "JAVA Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p >Full Stack Developer with 3 years of experience in end-to-end application development, specializing in Java, React, and microservices, with a proven track record of enhancing application performance and user satisfaction.</p>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Welcome to my Portfolio</span>
+                  <h1>{`Hi! I'm Vaishnavi More`} </h1>
+                  <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Full Stack Developer with 3 years of experience in end-to-end application development, specializing in Java, React, and microservices, with a proven track record of enhancing application performance and user satisfaction.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-              </div>}
+                </div>}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={girlImg} alt="Header Img"/>
+                  <img src={girlImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>

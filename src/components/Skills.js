@@ -36,15 +36,15 @@ export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 0 },
       items: 5
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 0 },
       items: 5
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 0 },
       items: 3
     },
     mobile: {
@@ -62,65 +62,65 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
+                        <h2 className="text-center text-sm md:text-base">Skills</h2>
                         <p><br></br></p>
                         <Carousel responsive={responsive} infinite={true}  autoPlay={true} autoPlaySpeed={3500} showDots={true}  arrows={true} slidesToSlide={4} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img className="highlightable-image" src={java1} alt="Image" />
-                                <h5>JAVA </h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={java1} alt="Image" />
+                                <h5 className="text-center text-sm md:text-sm">JAVA </h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={pythonpng} alt="Image" />
-                                <h5>Python</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={pythonpng} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">Python</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={springboot} alt="Image" />
-                                <h5>Springboot</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={springboot} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">Springboot</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={reactjs} alt="Image" />
-                                <h5>React JS</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={reactjs} alt="Image" />
+                                <h5 className="text-center text-sm md:text-sm">React JS</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={mysqldb} alt="Image" />
-                                <h5>MYSQL</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={mysqldb} alt="Image" />
+                                <h5  className="text-center text-sm md:text-sm">MYSQL</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={microservices} alt="Image" />
-                                <h5>MicroServices</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={microservices} alt="Image" />
+                                <h5 className="text-center text-sm md:text-sm">MicroServices</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={gitpng} alt="Image" />
-                                <h5>GIT</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={gitpng} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">GIT</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={postman} alt="Image" />
-                                <h5>Postman</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={postman} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">Postman</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={maven} alt="Image" />
-                                <h5>Apache Maven</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={maven} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">Apache Maven</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={aws} alt="Image" />
-                                <h5>Amazon Web Services</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={aws} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">Amazon Web Services</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={docker} alt="Image" />
-                                <h5>Docker</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={docker} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">Docker</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={htmlpng} alt="Image" />
-                                <h5>HTML5</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={htmlpng} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">HTML5</h5>
                             </div>
                             <div className="item">
-                                <img className="highlightable-image" src={csspng} alt="Image" />
-                                <h5>CSS3</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={csspng} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">CSS3</h5>
                             </div>
 
                             <div className="item">
-                                <img className="highlightable-image" src={tnf} alt="Image" />
-                                <h5>Machine Learning</h5>
+                                <img className="highlightable-image w-40 md:w-auto mx-auto" src={tnf} alt="Image" />
+                                <h5 className="text-center text-sm md:text-base">Machine Learning</h5>
                             </div>
                             
                         </Carousel>
