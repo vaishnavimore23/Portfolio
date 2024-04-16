@@ -7,6 +7,8 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import AboutMe from "./components/AboutMe"
+import EducationCard from "./components/Education"
 // import { ExperienceSection } from "./components/ExperienceSection"
 import ExperienceSection from './components/ExperienceSection';
 
@@ -15,10 +17,15 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
+      <AboutMe/>
+
       <Skills />
       <ExperienceSection/>
+      <EducationCard/>
+
       <Projects />
       <Contact />
+      <Footer/>
      
     </div>
   );

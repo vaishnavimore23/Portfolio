@@ -14,7 +14,11 @@
   border-radius: 8px;
   margin: 20px auto; /* Center horizontally */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a card effect */
-  background: linear-gradient(to top right, #A515E8 10%, #660066 100%);
+  background: linear-gradient(to top right, #5f3670 10%, #deb4de 100%);
+  transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+.experience:hover {
+  transform: scale(1.05); /* Scale up by 5% on hover */
 }
 
 .location {

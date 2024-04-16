@@ -10,10 +10,12 @@ export const SkillModal = () => {
 
   const openModal = () => {
     setModalIsOpen(true);
+    document.body.classList.add('body-scroll-lock');
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
+    document.body.classList.remove('body-scroll-lock');
   };
 
   return (

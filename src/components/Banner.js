@@ -3,8 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import girlImg from "../assets/img/girl.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { HashLink } from 'react-router-hash-link';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import profile from '../assets/img/profile.jpg'
+// import './Banner.css'
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,9 +61,11 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Vaishnavi More`} </h1>
-                  <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Full Stack Developer with 3 years of experience in end-to-end application development, specializing in Java, React, and microservices, with a proven track record of enhancing application performance and user satisfaction.</p>
+                  <h1><span className="txt-rotate" dataPeriod="1000" data-speed="300" data-rotate='[ "Software Developer", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Full Stack Developer with 4 years of experience in end-to-end application development, specializing in Java, React, and microservices, with a proven track record of enhancing application performance and user satisfaction.</p>
+                 
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+              
                 </div>}
             </TrackVisibility>
           </Col>
@@ -71,8 +76,10 @@ export const Banner = () => {
                   <img src={girlImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
+           
           </Col>
         </Row>
+       
       </Container>
     </section>
   )
