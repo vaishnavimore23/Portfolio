@@ -71,7 +71,7 @@ export const NavBar = () => {
               </div>
               <div className="resume-icon">
                
-                <HashLink to='https://drive.google.com/file/d/1Dq34ylRSWqeKNbEaPaXfpUlCyKpSgvvq/view?usp=sharing' target="_blank">
+                <HashLink to='https://drive.google.com/file/d/1SXH2oYtHryAaY4U6NxRhYjpuvVoKeg87/view?usp=sharing' target="_blank">
                 <button className="vvd"><span>Resume</span></button>
               </HashLink>
                
