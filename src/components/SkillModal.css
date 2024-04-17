@@ -19,6 +19,7 @@
   top:30%;
   left: 15%
 }
+
 .skills-container h2 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -57,10 +58,13 @@
   position: relative; /* Use fixed positioning */
   top: 50%; /* Position the top edge at the vertical center */
   left: 50%; /* Position the left edge at the horizontal center */
-  transform: translate(-50%, -50%); /* Use transform to center the modal */
+  /*transform: translate(-110%, -110%); /* Use transform to center the modal */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a card effect */
   /*background-color: #490e3c; /* Add background color */
   background: linear-gradient(to top right, #5f3670 10%, #deb4de 100%);
+}
+.modal-backdrop {
+  background-color: rgba(31, 27, 27, 0) !important;
 }
 
 .modal-content h2 {
