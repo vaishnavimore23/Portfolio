@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4c303dd2.css",
-    "main.js": "/Portfolio/static/js/main.7dd02d12.js",
+    "main.js": "/Portfolio/static/js/main.2133238b.js",
     "static/js/787.2dcca737.chunk.js": "/Portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/girl.jpg": "/Portfolio/static/media/girl.30f5c9e4d2cb1ca5e9d2.jpg",
+    "static/media/me.jpg": "/Portfolio/static/media/me.6ad15237813a7af039f0.jpg",
     "static/media/csuf.webp": "/Portfolio/static/media/csuf.c620f74219def41851cf.webp",
     "static/media/color-sharp.png": "/Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/contactimg.gif": "/Portfolio/static/media/contactimg.e4685552d5f458c7d231.gif",
     "static/media/color-sharp2.png": "/Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
-    "static/media/profile.jpg": "/Portfolio/static/media/profile.79f0c56f0b333dbb8844.jpg",
     "static/media/Python.png": "/Portfolio/static/media/Python.05f8cb289251d90b9f6c.png",
     "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/moviereview.png": "/Portfolio/static/media/moviereview.c9a69a628051a1df36f9.png",
     "static/media/header-img.svg": "/Portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/resume-icon.jpeg": "/Portfolio/static/media/resume-icon.8920583541df54c45e4c.jpeg",
+    "static/media/propic.png": "/Portfolio/static/media/propic.c02418e2989074c10686.png",
     "static/media/citySail.webp": "/Portfolio/static/media/citySail.79119ff476f7e26ab3f7.webp",
     "static/media/projectCard1.png": "/Portfolio/static/media/projectCard1.dd8ed5ce197299620e6a.png",
     "static/media/CentraNo2-Bold.ttf": "/Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -56,11 +57,11 @@
     "static/media/arrow1.svg": "/Portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/Portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.4c303dd2.css.map": "/Portfolio/static/css/main.4c303dd2.css.map",
-    "main.7dd02d12.js.map": "/Portfolio/static/js/main.7dd02d12.js.map",
+    "main.2133238b.js.map": "/Portfolio/static/js/main.2133238b.js.map",
     "787.2dcca737.chunk.js.map": "/Portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c303dd2.css",
-    "static/js/main.7dd02d12.js"
+    "static/js/main.2133238b.js"
   ]
 }
