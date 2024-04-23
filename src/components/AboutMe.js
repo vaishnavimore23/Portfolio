@@ -1,5 +1,5 @@
 import React from 'react';
-import myPhoto from '../assets/img/profile.jpg'; // Import your photo here
+import myPhoto from '../assets/img/me.jpg'; // Import your photo here
 import "./AboutMe.css"
 
 const AboutMe = () => {

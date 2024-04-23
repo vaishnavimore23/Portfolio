@@ -6,7 +6,8 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { HashLink } from 'react-router-hash-link';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import profile from '../assets/img/profile.jpg'
+
+import profile from '../assets/img/propic.png'
 // import './Banner.css'
 
 export const Banner = () => {
@@ -73,7 +74,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={girlImg} alt="Header Img" />
+                  <img src={profile} alt="Header Img" />
                 </div>}
             </TrackVisibility>
            
