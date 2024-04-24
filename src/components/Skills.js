@@ -1,6 +1,7 @@
 import { Col, Modal, Button } from 'react-bootstrap';
 
-import { SkillModal } from './SkillModal';
+//import { SkillModal } from './SkillModal';
+import {SkillModal} from './SkillsOverlay'
 import React, { useState } from 'react';
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";

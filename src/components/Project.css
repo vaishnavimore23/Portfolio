@@ -1,13 +1,12 @@
-/* Custom CSS to style the nav-pills */
+.nav-pills {
+  display: flex;
+  justify-content: space-around; /* This will distribute space evenly */
+}
+
+.nav-pills .nav-item {
+  flex: 1; /* This will make each nav item take up equal width */
+}
+
 .nav-pills .nav-link {
-    padding: 0.5rem 1rem; /* Adjust the padding as needed */
-  }
-  
-  .nav-pills .nav-item {
-    margin-right: 0.5rem; /* Adjust the margin between nav items as needed */
-  }
-  
-  .nav-pills .nav-item:last-child {
-    margin-right: 0; /* Remove margin from the last nav item */
-  }
-  
+  text-align: center; /* This centers the text in the nav link */
+}
